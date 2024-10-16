@@ -80,10 +80,6 @@ address {
     font-style: normal;
 }
 
-.adr {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .bground {
 
     border-radius: 0px 0px 4px 4px;
@@ -136,6 +132,7 @@ a:hover {
 .adr {
     letter-spacing: 0.02em;
     color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .adr:focus {
@@ -378,8 +375,8 @@ h1 {
 }
 
 button {
-    transition: 250ms;
-    color: cubic-bezier(0.4, 0, 0.2, 1);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
