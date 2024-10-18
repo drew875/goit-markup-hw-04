@@ -89,6 +89,14 @@ address {
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.team-members-links {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+
+}
+
 .contacts {
     padding: 24px 0;
     letter-spacing: 0.02em;
