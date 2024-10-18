@@ -104,8 +104,7 @@ address {
 }
 
 .inst-link {
-    width: 100%;
-    height: 100%;
+
     background-color: #4d5ae5;
     border-radius: 50%;
     display: flex;
@@ -123,7 +122,7 @@ address {
 }
 
 .inst-link-svg {
-    fill: var(#4D5AE5);
+    fill: var(#f4f4fd);
 }
 
 .contacts {
