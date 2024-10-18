@@ -110,6 +110,7 @@ address {
     display: flex;
     align-items: center;
     justify-content: center;
+    fill: var(#f4f4fd);
 
 }
 
