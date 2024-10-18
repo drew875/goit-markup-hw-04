@@ -120,6 +120,10 @@ address {
     background-color: #404bbf;
 }
 
+.inst-link-svg {
+    fill: var(--IRIS, #4D5AE5);
+}
+
 .contacts {
     padding: 24px 0;
     letter-spacing: 0.02em;
