@@ -579,7 +579,7 @@ footer {
 }
 
 .icon-footer-svg {
-    fill: var(--iris);
+    fill: var(--white);
 }
 
 .footer-list-icons-items-link:hover {
