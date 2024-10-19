@@ -332,9 +332,14 @@ h1 {
 }
 
 .section-four-content:hover .img-container .p-text {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     transform: translateY(0%);
 
+}
+
+.section-four-content:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .prod-text {
@@ -509,8 +514,10 @@ footer {
 
 .foot {
     padding: 100px 0;
-    display: flex;
+}
 
+.container .foot-container {
+    display: flex;
 }
 
 .logo-footer {
