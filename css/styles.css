@@ -520,7 +520,7 @@ footer {
     padding: 100px 0;
 }
 
-.foot-container {
+.foot-container .icons-fooer {
     display: flex;
     align-items: baseline;
 
