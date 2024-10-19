@@ -471,6 +471,10 @@ button:hover {
 
 }
 
+svg {
+    fill: var(#f4f4fd);
+}
+
 .icons {
     display: flex;
     align-items: center;
