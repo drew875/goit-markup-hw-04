@@ -131,7 +131,7 @@ address {
 }
 
 .inst-link-svg {
-    fill: var(#f4f4fd);
+    fill: var(--white#f4f4fd);
 }
 
 .contacts {
