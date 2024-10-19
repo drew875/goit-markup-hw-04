@@ -19,6 +19,11 @@ img {
 
 }
 
+:root {
+    --iris: #4d5ae5;
+    --white: #f4f4fd;
+}
+
 .img-container {
     position: relative;
     overflow: hidden;
@@ -131,7 +136,7 @@ address {
 }
 
 .inst-link-svg {
-    fill: var(--white#f4f4fd);
+    fill: var(--white);
 }
 
 .contacts {
@@ -432,7 +437,7 @@ h1 {
     top: 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(#f4f4fd);
+    color: var(--white);
     padding: 40px 32px;
     background-color: #4d5ae5;
     height: 100%;
@@ -456,7 +461,7 @@ button {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     margin: 0 auto;
-    background: var(--IRIS, #4D5AE5);
+    background: var(--iris);
 
     color: white;
     cursor: pointer
