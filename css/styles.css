@@ -520,7 +520,7 @@ footer {
     padding: 100px 0;
 }
 
-.foot-container .icons-fooer {
+.foot-container {
     display: flex;
     align-items: baseline;
 
@@ -540,4 +540,13 @@ footer {
 
 .footer-logo-and-p {
     margin-right: 120px;
+}
+
+.social-media-footer {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
 }
