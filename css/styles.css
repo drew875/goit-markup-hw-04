@@ -20,9 +20,12 @@ img {
 }
 
 .img-container {
-
     position: relative;
     overflow: hidden;
+}
+
+.img-container:hover {
+    transform: translateY(0%);
 }
 
 .container {
